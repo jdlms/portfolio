@@ -8,8 +8,8 @@
   --primary-inverse: #fff;
   /* comment */
   --color: #bbc6ce;
-  --background-color: #2a2b2e;
-  --card-background-color: #292a2d;
+  --background-color: #333333;
+  --card-background-color: #c5c5c5;
   --card-border-color: var(--card-background-color);
   --card-sectionning-background-color: #38393d;
   --muted-border-color: #292a2d;
@@ -24,8 +24,9 @@
     --primary-focus: rgba(117, 117, 117, 0.25);
     --primary-inverse: #fff;
     /* comment */
-    --background-color: #2a2b2e;
-    --card-background-color: #292a2d;
+    --color: #3d3d29;
+    --background-color: #f5f5dc;
+    --card-background-color: #efefd6;
     --card-border-color: var(--card-background-color);
     --card-sectionning-background-color: #38393d;
     --muted-border-color: #292a2d;
@@ -57,6 +58,15 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(https://arc.net/grid.svg);
+  background-position: 50% 50%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-attachment: fixed;
+  background-repeat: repeat;
 }
 
 a {
